@@ -1,0 +1,17 @@
+１．ユーザフォルダの「.m2」フォルダの配下に、setting.xmlを新規作成しておく。
+  
+  <settings>
+    <proxies>
+      <proxy>
+        <active>true</active>
+        <protocol>http</protocol>
+        <host>XXX.88.42.18</host>
+        <port>8080</port>
+      </proxy>
+    </proxies>
+  </settings>
+ 
+２．Eclipseのネットワーク接続で、マニュアルを選択してホストとポートを選択してください。
+  ※HTTPとHTTPSの両方に設定する。
+  ホスト：XXX.88.42.18
+  ポート：8080
